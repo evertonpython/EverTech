@@ -30,10 +30,10 @@ img {
     padding: 3% 4%;
 }
 .logo {
-    width: 56px;
-    height: 56px;
+    width: 65px;
+    height: 65px;
     float: left;
-    background: url(../img/logo-mobile.png) center center/56px no-repeat;
+    background: url(../img/logo-mobile.png) center center/65px no-repeat;
     font-size: 0;
 }
 /* MENU */
@@ -235,11 +235,11 @@ img {
     color: rgb(56, 171, 216);
 }
 /* MOBILE FIRST (primordial: smartphones depois PCs)*/
-@media screen and (min-width: 214px) {
+@media screen and (min-width: 480px) {
 .logo {
-    width: 65px;
+    width: 214px;
     float: left;
-    background: url(../img/logo-mobile.png) center center/65px no-repeat;
+    background: url(../img/logo.png) center center/214px no-repeat;
 }
 .title h3 {
     font-size: 1.5em;
